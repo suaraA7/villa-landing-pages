@@ -6,6 +6,103 @@
     scroll-behavior: smooth;
 }
 
+/* Start Navbar Section*/
+.header{
+     z-index: 20;
+}
+
+.ButtonBG{
+     border-radius: 30px;
+     background-color: white;
+     padding: 10px;
+     filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0.1));
+     border: none;
+}
+
+.NavbarBG {
+     background: rgba(255, 255, 255, 0.50);
+     backdrop-filter: blur(25px);
+     border-radius: 15px;
+     padding: 15px 25px;
+}
+
+.ButtonRegis:hover{
+     background: #588157;
+     transition-duration: 0.9s;
+     
+}
+
+.nav-item-header-home:hover{
+     color:#588157;
+}
+.navbar-nav .nav-link.active{
+    color: #588157;
+    font-weight: 600;
+}
+
+.NavbarList li a{
+     color: #212427;
+     text-align: center;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: normal;
+}
+
+.NavbarList li a:hover{
+    color: #588157;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.ButtonRegis{
+     padding: 15px 25px;
+     border: none;
+     border-radius: 10px;
+     background: #588157;
+}
+
+.ButtonNavList{
+     color: white;
+     text-align: center;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: normal;
+     text-decoration: none;
+}
+
+/* Responsive Navbar */
+@media (max-width: 991.98px) {
+     .NavbarBG.navbar-collapse {
+          border-radius: 40px; 
+     }
+     .nav-item-header:hover{
+          background: rgb(243, 243, 243);
+          border-radius: 30px;
+          width: 100%;
+          transition-duration: 0.2s;
+     }
+     .nav-item-header-home{
+          margin-top: 30px;
+     }
+     .nav-item-header-home:hover{
+          background: rgb(243, 243, 243);
+          border-radius: 30px;
+          width: 100%;
+          transition-duration: 0.2s;
+     }
+     .ButtonRegis{
+          width: 100%;
+          margin: 20px 0px 0px 0px; 
+     }
+}
+
+/* End Navbar Section */
+
 section{
     margin: 3rem 0 3rem 0;
 }
