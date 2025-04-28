@@ -124,36 +124,43 @@ section p{
     padding: 0.5rem 2rem;
 }
 
-/* Navbar Section Start */
-/* Navbar Section End */
-
 /* Home Section Start */
 .home{
     width: 100%;
     height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('images/image.png') no-repeat center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.13)), url('images/cover-home.png') no-repeat center;
     background-color: black;
     background-size: cover;
 }
 
-.content{
-    color: white;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    margin-top: 24%;
+.subtitle {
+    color: #d0d0d0;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+  
+.headline {
+    font-size: 2.5rem;
+    line-height: 1.3;
+}
+  
+.lead {
+    font-size: 1rem;
+    color: #dcdcdc;
+}
+  
+.btn-success {
+    background-color: #588157;
+    border: none;
+}
+  
+.btn-light {
+    color: #333;
+    background-color: #ffffff;
+    border: none;
 }
 
-.content h1{
-    font-size: 50px;
-    font-style: italic;
-    font-weight: 700;
-}
 /* Home Section End */
-
-/* About Section Start */
-
-/* About Section End */
 
 /* Why Section */
 .why-card{
