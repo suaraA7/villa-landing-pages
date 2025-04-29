@@ -6,6 +6,10 @@
     scroll-behavior: smooth;
 }
 
+p {
+    line-height: 1.8rem;
+}
+
 /* Start Navbar Section*/
 .header{
      z-index: 20;
@@ -23,18 +27,18 @@
      background: rgba(255, 255, 255, 0.50);
      backdrop-filter: blur(25px);
      border-radius: 15px;
-     padding: 15px 25px;
+     padding: 8px 25px;
 }
 
 .ButtonRegis:hover{
      background: #588157;
      transition-duration: 0.9s;
-     
 }
 
 .nav-item-header-home:hover{
      color:#588157;
 }
+
 .navbar-nav .nav-link.active{
     color: #588157;
     font-weight: 600;
@@ -59,7 +63,7 @@
 }
 
 .ButtonRegis{
-     padding: 15px 25px;
+     padding: 12px 20px;
      border: none;
      border-radius: 10px;
      background: #588157;
@@ -73,32 +77,6 @@
      font-weight: 600;
      line-height: normal;
      text-decoration: none;
-}
-
-/* Responsive Navbar */
-@media (max-width: 991.98px) {
-     .NavbarBG.navbar-collapse {
-          border-radius: 40px; 
-     }
-     .nav-item-header:hover{
-          background: rgb(243, 243, 243);
-          border-radius: 30px;
-          width: 100%;
-          transition-duration: 0.2s;
-     }
-     .nav-item-header-home{
-          margin-top: 30px;
-     }
-     .nav-item-header-home:hover{
-          background: rgb(243, 243, 243);
-          border-radius: 30px;
-          width: 100%;
-          transition-duration: 0.2s;
-     }
-     .ButtonRegis{
-          width: 100%;
-          margin: 20px 0px 0px 0px; 
-     }
 }
 
 /* End Navbar Section */
@@ -188,6 +166,10 @@ section p{
     font-size: 50px;
     color: #588157;
 }
+
+.btn-info {
+    padding: 1rem 2rem;
+}
 /* Why Section End */
 
 /* Rooms Section Start */
@@ -210,6 +192,14 @@ section p{
 
 .room-price h3{
     color: #588157;
+}
+
+.tabel-facilities {
+    margin-bottom: 15px;
+}
+
+.tabel-facilities td{
+    padding: 5px 0;
 }
 /* Rooms Section End */
 
@@ -279,4 +269,30 @@ footer{
 
 .list-unstyled li {
     margin: 0 0 0.4rem 0 ;
+}
+
+/* Responsive Navbar */
+@media (max-width: 991.98px) {
+    .NavbarBG.navbar-collapse {
+         border-radius: 40px; 
+    }
+    .nav-item-header:hover{
+         background: rgb(243, 243, 243);
+         border-radius: 30px;
+         width: 100%;
+         transition-duration: 0.2s;
+    }
+    .nav-item-header-home{
+         margin-top: 30px;
+    }
+    .nav-item-header-home:hover{
+         background: rgb(243, 243, 243);
+         border-radius: 30px;
+         width: 100%;
+         transition-duration: 0.2s;
+    }
+    .ButtonRegis{
+         width: 100%;
+         margin: 20px 0px 0px 0px; 
+    }
 }
