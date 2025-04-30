@@ -12,6 +12,33 @@ document.getElementById('navbar-toggler').addEventListener('click', function () 
   this.style.outline = 'none';
 });
 
+// Active Link Scroll JS
+document.addEventListener("DOMContentLoaded", () => {
+  const sections = document.querySelectorAll("section");
+  const navLinks = document.querySelectorAll(".NavbarList .nav-link");
+
+  window.addEventListener("scroll", () => {
+    let currentSection = "";
+
+    sections.forEach(section => {
+      const sectionTop = section.offsetTop;
+      const sectionHeight = section.offsetHeight;
+
+      if (pageYOffset >= sectionTop - 80 && pageYOffset < sectionTop + sectionHeight) {
+        currentSection = section.getAttribute("id");
+      }
+    });
+
+    navLinks.forEach(link => {
+      link.classList.remove("active");
+      const href = link.getAttribute("href");
+      if (href === "#" + currentSection) {
+        link.classList.add("active");
+      }
+    });
+  });
+});
+
 //FAQ Section JS
 function toggleFaq(item) {
   const answer = item.querySelector('.faq-answer');
