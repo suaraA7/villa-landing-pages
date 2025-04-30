@@ -136,12 +136,6 @@ section p{
     background-color: #588157;
     border: none;
 }
-  
-.btn-light {
-    color: #333;
-    background-color: #ffffff;
-    border: none;
-}
 
 /* Home Section End */
 
@@ -221,8 +215,8 @@ section p{
 }
 
 .testimonial-img {
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 10px;
@@ -264,7 +258,7 @@ section p{
 
 /* Gallery */
 .gallery img{
-    outline: #bbb solid 5px;
+    outline: #588157 solid 4px;
     border-radius: 10px;
 }
 
