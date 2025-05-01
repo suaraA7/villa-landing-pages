@@ -14,6 +14,9 @@
 
 
     <link rel="stylesheet" href="style.css">
+
+    <!-- AOS Animation CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -68,7 +71,7 @@
         <div class="home d-flex align-items-center" id="home">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8 text-white">
+                    <div class="col-lg-8 text-white" data-aos="fade-right" data-aos-duration="800">
                         <p class="subtitle">Your Bali Getaway Starts in the Ritual Retreat Cemagi Villa</p>
                         <h1 class="headline fw-bold">
                             Find Home in the Villa <br> You’ve Always Imagined.
@@ -84,11 +87,11 @@
         </div>
 
         <!-- Why Section -->
-        <section id="why" class="why">
+        <section id="why" class="why" data-aos="fade-up" data-aos-duration="800">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 mx-auto text-center mb-1">
-                        <h2>Why Choose Our Villa?</h2>
+                        <h2 class="head-fitur">Why Our Villa?</h2>
                         <p class="text-center">Relax in our beautifully designed luxury villas, complete with amenities
                             for your comfort. Perfect for romantic escapes or family holidays.</p>
                     </div>
@@ -160,7 +163,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-5 mb-3 d-flex justify-content-center">
+                    <div data-aos="zoom-in-up" data-aos-duration="800"
+                        class="col-md-5 mb-3 d-flex justify-content-center">
                         <img src="images/cover-about.png" class="img-fluid rounded" alt="...">
                     </div>
                 </div>
@@ -168,11 +172,11 @@
         </section>
 
         <!-- Rooms section -->
-        <section class="rooms" id="rooms">
+        <section class="rooms" id="rooms" data-aos="fade-up" data-aos-duration="800">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 mx-auto text-center mb-3">
-                        <h2>The Best Villa Service in Bali</h2>
+                        <h2 class="head-fitur">The Best Villa Service in Bali</h2>
                         <p class="text-center">We offer a range of exclusive amenities to make your stay unforgettable.
                             From private pools to lush gardens, every detail is designed for ultimate relaxation and
                             comfort, allowing you to unwind and enjoy the serene beauty of Bali.</p>
@@ -207,7 +211,7 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="room-card">
-                            <h3><strong>Deluxe Villa</strong></h3>
+                            <h3 class="head-fitur"><strong>Deluxe Villa</strong></h3>
                             <p>Experience private comfort in our Deluxe Villa featuring 2 bedrooms, a private pool, a
                                 kitchenette, and a balcony or terrace to relax.</p>
                             <div class="row room-facilities">
@@ -284,7 +288,7 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="room-card">
-                            <h3><strong>Executive Villa</strong></h3>
+                            <h3 class="head-fitur"><strong>Executive Villa</strong></h3>
                             <p>Enjoy extra space in our Executive Villa with 3 bedrooms, a private pool, a
                                 fully
                                 equipped kitchenette, and a spacious lounge area for unforgettable moments.</p>
@@ -337,11 +341,11 @@
             </div>
         </section>
 
-        <section class="review" id="review">
+        <section class="review" id="review" data-aos="fade-up" data-aos-duration="800">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 mx-auto text-center mb-3">
-                        <h2>What Do the Customers Say About The Villa? </h2>
+                        <h2 class="head-fitur">What Do the Customers Say About The Villa? </h2>
                         <p class="text-center">From the peaceful ambiance to personalized service, discover real stories
                             and experiences shared by those who have stayed at Ritual Retreat Cemagi.</p>
                     </div>
@@ -463,11 +467,11 @@
         </section>
 
         <!-- FAQ -->
-        <section class="faq" id="faq">
+        <section class="faq" id="faq" data-aos="fade-up" data-aos-duration="800">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 mx-auto text-center mb-3">
-                        <h2>Frequently Ask Questions (FAQ)</h2>
+                        <h2 class="head-fitur">Frequently Ask Questions (FAQ)</h2>
                         <p class="text-center">Browse our FAQ to learn more about your stay at Ritual Retreat Cemagi.
                         </p>
                     </div>
@@ -556,11 +560,11 @@
         </section>
 
         <!-- Gallery -->
-        <section id="gallery" class="gallery">
+        <section id="gallery" class="gallery" data-aos="fade-up" data-aos-duration="800">
             <div class="container d-flex flex-column justify-content-center align-items-center">
                 <div class="row">
                     <div class="col-lg-8 mx-auto text-center mb-3">
-                        <h2>Our Villa Gallery</h2>
+                        <h2 class="head-fitur">Our Villa Gallery</h2>
                         <p class="text-center">Explore our gallery to get a glimpse of the serene atmosphere and
                             unforgettable experiences that await you. From stunning views to relaxing moments, captures
                             the essence of your perfect getaway.</p>
@@ -670,8 +674,14 @@
     <!-- JS  -->
     <script src="js/script.js"></script>
 
-    <!-- Icon CDN -->
+    <!-- Font Awesome Icon CDN -->
     <script src="https://kit.fontawesome.com/ab3a7137c1.js" crossorigin="anonymous"></script>
+
+    <!-- AOS Animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

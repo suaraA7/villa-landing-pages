@@ -15,6 +15,10 @@ p {
     line-height: 1.8rem;
 }
 
+.head-fitur {
+    color: #344E41;
+}
+
 /* Start Navbar Section*/
 .header{
      z-index: 20;
@@ -242,7 +246,7 @@ section p{
     justify-content: space-between;
     align-items: center;
     font-weight: bold;
-    color: #588157;
+    color: #344E41;
   }
 
   .faq-answer {
